@@ -1,5 +1,6 @@
 # HTTPSAdapterDemo
 
+[阅读完整原文](http://www.jianshu.com/p/0109f45395e3)
 
  在16年的WWDC中，Apple已表示将从2017年1月1日起，**所有新提交的App必须强制性应用HTTPS协议来进行网络请求。**默认情况下非HTTPS的网络访问是禁止的并且不能再通过简单粗暴的向Info.plist中添加``NSAllowsArbitraryLoads``设置绕过ATS(App Transport Security)的限制（否则须在应用审核时进行说明并很可能会被拒）。所以还未进行相应配置的公司需要尽快将升级为HTTPS的事项提上进程了。
 本文将简述HTTPS及配置数字证书的原理并以配置实例和出现的问题进行说明，希望能对你提供帮助。(比心~)
